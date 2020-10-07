@@ -1,0 +1,11 @@
+{
+  "autodetect": true,
+  "hivePartitioningOptions": {
+    "mode": "AUTO",
+    "sourceUriPrefix": "gs://warm-actor-291222_cloudbuild/test-data"
+  },
+  "sourceFormat": "NEWLINE_DELIMITED_JSON",
+  "sourceUris": [
+    "gs://warm-actor-291222_cloudbuild/test-data/*"
+  ]
+}
